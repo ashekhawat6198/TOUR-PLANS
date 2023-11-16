@@ -1,0 +1,133 @@
+/* write your css here */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+   height: 100vh;
+   width: 100vw;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+.head-box{
+    display: flex;
+    justify-content: center;
+}
+
+.top-heading{
+    
+    margin-top: 1.5rem;
+    border: 5px dashed darkblue;
+    padding: 1rem 7rem;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 2rem;    
+}
+
+
+.cards-container{
+    
+    width: 75%;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 28%;
+    margin: 1rem;
+    height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    margin-top: 0.7rem;
+    width: 93%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+
+.tour-details{
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.tour-price{
+    color: #1faa59;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.tour-name{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.desc{
+    padding-right: 1rem;
+}
+
+.readMore{
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 200px;
+    margin-left: 2rem;
+    padding: 0.4rem 2rem;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: sandybrown;
+    border: 2px solid saddlebrown;
+}
+
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.refresh-btn{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid white;
+    cursor: pointer;
+
+
+
+}
+
+.refresh-btn:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.2s ;
+}
+
+.refresh-head{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
